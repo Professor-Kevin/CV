@@ -1,20 +1,59 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>HTML Tutorial</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contat Me</title>
+</head>
+<body>
+<form action="#">
+    <table border="1"> 
 
-<body> <hr>
-    <header>
-        <h1><big><center>Wellcome to my CV</center></big></h1>
-    </header> <hr> <hr>
+        <tr> <td> <label for="name">Name: </label> </td>
+        <td> <input type="text" id="name" name="name" placeholder="Enter your name"> </td> </tr>
+<br> 
+        <tr> <td> <label for="number">Number: </label> </td>
+        <td> <input type="number" id="number" name="name" placeholder="enter your number"> </td> </tr>
+<br>
+        <tr> <td> <label for="email">Email: </label> </td>
+        <td> <input type="email" id="email" name="name" placeholder="Enter your email"> </td> </tr>
+<br>
+        <tr> <td> <label for="Rating">Rating</label> </td>
+        <td> <select name="Rating id="Rating>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option> </td>
+        </select> </tr>
+<br>
+        <tr> </tr><label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
 
-    <main>
-        <h4>Abhi Sharma</h4>
-        <article>
-            My name is Abhi sharma and i am passionate about computer.
-        </article>
-    </main>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
 
+        <label for="others">Others</label>
+        <input type="radio" id="others" name="gender" value="others">
+<br>
+        <label for="facebook">facebook</label>
+        <input type="checkbox" id="facebook" name="facebook" value="Facebook">
+         
+        <label for="instagram">instagram</label>
+        <input type="checkbox" id="instagram" name="instagram" value="instagram">
+
+        <label for="linkedin">linkedin</label>
+        <input type="checkbox" id="linkedin" name="linkedin" value="linkedin">
+<br>
+        <label for="feedback"> feedback </label>
+        <textarea name="feedback" id="feedbac" cols="10" rows="2"></textarea>
+<br>
+        <input type="submit">
+    </table>
+</form>
+
+<input type="button" value="Save">
+<button type="button">save as</button>
+    
 </body>
 </html>
